@@ -1,0 +1,10 @@
+name: Shreyas
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs_on: ubuntu_latest
+    steps:
+      - name: printing greeting
+        run: echo "task 1"
+      - name: printing 2
+        run: echo "task 2"
